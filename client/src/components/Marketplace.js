@@ -156,10 +156,10 @@ const NFT = () => {
               <Card.Body>
                 <Card.Title>Tree NFT</Card.Title>
                 <Card.Text>
-                  Ce LEAF TREE à déjà donné vie à 10 arbres dans le monde réel
-                  et si tu fais 10 000 pas aujourd'hui, il te donnera 6 LEAFs.
-                  Des LEAFs qui permettront de planter de nouveaux arbres. Alors
-                  lève toi et marche!
+                  Ce LEAF TREE a déjà donné vie à 10 arbres dans le monde réel
+                  et si tu fais 10 000 pas aujourd'hui, il te donnera 6 LEAFs.<br></br>
+                  Des LEAFs qui permettront de planter de nouveaux arbres. <br></br><br></br><i>Alors
+                  lève toi et marche!</i>
                 </Card.Text>
                 <div>{limit - totalSupply} / 10000 restant</div>
                 <br></br>

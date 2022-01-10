@@ -37,7 +37,7 @@ const Header = () => {
   }
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="navcolor" expand="lg">
       <LinkContainer to="/">
         <Navbar.Brand>Home</Navbar.Brand>
       </LinkContainer>
@@ -48,6 +48,7 @@ const Header = () => {
         <LinkContainer to="/leaf">
             <Nav.Link>Leaf</Nav.Link>
           </LinkContainer>
+
           <LinkContainer to="/nft">
             <Nav.Link>NFT</Nav.Link>
           </LinkContainer>
@@ -55,10 +56,10 @@ const Header = () => {
           <LinkContainer to="/service">
             <Nav.Link>Service</Nav.Link>
           </LinkContainer>
+
           <LinkContainer to="/about">
             <Nav.Link>About</Nav.Link>
           </LinkContainer>
-
         </Nav>
 
         {address && network != "avax" &&

@@ -1,5 +1,11 @@
+body {
+  background-color: #F5EFDD !important;
+  color: #0D3833 !important;
+}
+
 .App {
   text-align: center;
+  color: #0D3833;
 }
 
 .App-logo {
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0D3833;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +41,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.color1 {
+  color: #0D3833;
+}
+
+.color2 {
+  color: #85B55A;
+}
+
+.color3 {
+  color: #F5EFDD;
+}
+
+.color4 {
+  color: #E0C080;
+}
+
+.navcolor{
+  background-color: #85B55A;
 }
