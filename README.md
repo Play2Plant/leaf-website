@@ -1,6 +1,6 @@
-# Leaf dApp
+# 🍃 Leaf DApp
 
-Build with Truffle and ReactJS
+Build with Truffle and ReactJS ⚛️
 
 ## 🔧 Installation
 
@@ -16,26 +16,26 @@ git clone git@github.com:Play2Plant/dApp-unbox.git
 npm i
 ```
 
-## Run contracts tests with Truffle
+## 🧪 Run contracts tests with Truffle
 
 ```
 truffle test
 ``` 
 
-## Install client dependencies
+## ⚙️ Install client dependencies
 
 ```
 cd client/
 npm install
 ```
 
-## Start dApp
+## 🚀 Start DApp
 
 ```
 cd client/
 npm start
 ```
 
-## Deploy on github pages
+## 📜 Deploy on GitHub pages
 
 `npm run deploy`
