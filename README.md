@@ -4,23 +4,29 @@ Build with Truffle and ReactJS ⚛️
 
 ## 🔧 Installation
 
-* without solidity contract:
+* Get the code:
 
-```
-git clone git@github.com:Play2Plant/dApp-unbox.git
-```
+`git clone git@github.com:Play2Plant/dApp-unbox.git`
 
-* with solidity contract and compilation tools at the root of the project:
+* Solidity contract and compilation tools at the root of the project:
 
-```
-npm i
-```
+`npm i`
+
+## 🔧 Copy and Configure .env file with your credentials
+
+`cp .exemple.env .env`
+
+## 🕸️ Deploy on Ropsten testnet
+
+`truffle deploy --ropsten`
+
+## 🕸️ Deploy on AVAX testnet
+
+`truffle deploy --avax-testnet`
 
 ## 🧪 Run contracts tests with Truffle
 
-```
-truffle test
-``` 
+`truffle test`
 
 ## ⚙️ Install client dependencies
 
