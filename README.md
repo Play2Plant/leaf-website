@@ -1,27 +1,24 @@
 # Leaf dApp
 
-Build with truffle and reactJS
+Build with Truffle and ReactJS
 
-![screenshot](screenshot.png)
+## 🔧 Installation
 
-## Installation without solidity contract
+* without solidity contract:
 
 ```
 git clone git@github.com:Play2Plant/dApp-unbox.git
 ```
 
-## Installation with solidity contract and compilation tools
+* with solidity contract and compilation tools at the root of the project:
 
 ```
-cd leaf-website/
 npm i
 ```
 
 ## Run contracts tests with Truffle
 
 ```
-cd leaf-website/
-
 truffle test
 ``` 
 
@@ -29,7 +26,6 @@ truffle test
 
 ```
 cd client/
-
 npm install
 ```
 
@@ -37,7 +33,6 @@ npm install
 
 ```
 cd client/
-
 npm start
 ```
 
