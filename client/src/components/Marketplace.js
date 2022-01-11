@@ -145,13 +145,25 @@ const NFT = () => {
         
           </Row>
         ) : (
-            <Row>
-                <h1>Mint your first tree</h1>
+            <Row className="d-flex justify-content-center">
+              <h1><i>Mint your first tree !</i></h1>
+              <br></br>
+              <p>Lorem ipsum dolor sit amet,
+         consectetur adipiscing elit.
+          Donec in iaculis ipsum.
+           Mauris posuere lectus a augue interdum,
+            at finibus urna suscipit. Morbi et auctor arcu.
+             Vivamus consectetur magna nec lobortis dignissim.
+              Maecenas in condimentum tellus. Quisque bibendum eget urna in euismod.
+               Suspendisse odio tellus, scelerisque sit amet neque vitae, ullamcorper dapibus lacus.
+                Vivamus vel accumsan nulla. Praesent rutrum lorem hendrerit, feugiat odio vel, cursus nisi.
+                 Phasellus imperdiet risus dignissim ante tincidunt, accumsan efficitur tortor tristique.
+                  Etiam in ipsum sit amet velit lacinia placerat ut nec ex. Fusce nec efficitur elit.
+                   In arcu nunc, tincidunt quis libero et, mollis facilisis ante.</p>
             <Col
-                  className="d-flex justify-content-center"
-                  style={{ marginTop: '20px' }}
-                >
-            <Card style={{ width: '18rem' }}>
+              className="d-flex justify-content-center"
+            >
+            <Card style={{ width: '18rem', background: '#E0C080' }}>
               <Card.Img variant="top" src={tree} />
               <Card.Body>
                 <Card.Title>Tree NFT</Card.Title>
