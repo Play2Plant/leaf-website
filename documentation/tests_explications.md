@@ -21,6 +21,12 @@ Link to the tests : [LeafToken.test.js](https://github.com/Play2Plant/leaf-websi
 
 It includes the following checks:
 
-* 
+* The Transfer of nfts
+* The mint activation
+* The mint
+* The safetransfer
+* The royolties info
+* The withdraw
+* The correct amount of mints
 
 Link to the tests : [LeafNFT.test.js](https://github.com/Play2Plant/leaf-website/blob/documentation/test/LeafNFT.test.js)
