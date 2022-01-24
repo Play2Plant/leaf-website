@@ -21,6 +21,12 @@ Link to the tests : [LeafToken.test.js](https://github.com/Play2Plant/leaf-websi
 
 It includes the following checks:
 
-* 
+* Should transfer
+* Should mint
+* Toggle claimability
+* Use of safe transfer
+* Have information on royalties
+* The ability to withdraw
+* The limit of 10 NFT mint
 
 Link to the tests : [LeafNFT.test.js](https://github.com/Play2Plant/leaf-website/blob/documentation/test/LeafNFT.test.js)
